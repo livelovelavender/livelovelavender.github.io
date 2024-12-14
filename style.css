@@ -1,0 +1,287 @@
+h1 {
+	color: #a57bee;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+	font-size: 8vw;
+	margin-top: 5vw;
+	animation: name 3s 1;
+	/*background-color: bisque;*/
+  }
+
+
+#upperline{
+	border-top: 2px solid #a57bee; /* Adjust border style, color, and width as needed */
+  	margin: 5vw 0;
+}
+
+body{
+	background-color: beige;
+}
+
+#lavendar{
+	width: 18vw;
+	height: 18vw;
+	position: absolute;
+	top: 1vw;
+	left: 5vw;
+	float: left;
+
+	transform: rotate(-100deg)	
+
+}
+.ImageFrame
+{
+	background-color: black;
+	width: 35vw;
+	height: 50vw;
+	position: absolute;
+	right:3.75vw;
+	top: 15vw;
+	border-radius:2vw;
+	overflow: hidden;
+}
+
+#ImageContainer
+{
+	background-color: #ac92da;
+	width: 35vw;
+	height: 50vw;
+	border-radius:2vw;
+	overflow: hidden;
+	
+}
+#ImageContainer img {
+	width: 40vw;
+	height: 50vw;
+	position: absolute;
+	opacity: 1;
+  	transition: opacity 1s ease-in-out;
+  }
+
+
+#lavendar2{
+	width: 18vw;
+	height: 18vw;
+	position: absolute;
+	top: 1.5vw;
+	right: 4vw;
+	float: left;
+}
+
+#lavendar4{
+	width: 13vw;
+	height: 13vw;
+	position: absolute;
+	top: 5vw;
+	transform: rotate(-30deg);
+}
+
+#PFP
+{
+	border-radius: 3vw;
+	border: .5vw solid #a57bee;
+	position: absolute; 
+	top: 26vw;
+	left: 10vw; 
+	height: 50vw; 
+	width: 37.5vw;
+}
+
+#line
+{
+	position: absolute;
+	height: 25vw;
+	width: 100vw;
+	top: 85vw;
+}
+
+#AboutMe
+{
+	position: absolute;
+	top: 105vw;
+}
+
+#myblog
+{
+	position: absolute;
+	top: 180vw;
+}
+
+
+#AboutMe p
+{
+	font-family: fantasy;
+	font-size: 3.5vw;
+	padding-left: 5vw;
+	padding-right: 43vw;
+}
+
+#AboutMe h3
+{
+	position:relative;
+	left: 7vw;
+	font-size: 8vw;
+	color: #a57bee;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#myblog h3
+{
+	position:relative;
+	left: 15vw;
+	font-size: 8vw;
+	color: #a57bee;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+#MyBlog{
+	animation: buttonAnimation 5s infinite;
+	position: absolute;
+	top: 28vw;
+	width: 30vw;
+	height: 10vw;
+	right: 10vw;
+	background-color: #a57bee;
+	color: beige;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 3vw;
+	
+	cursor: pointer;
+	border: none;
+	border-radius: 3vw;
+}
+#BF{
+	animation: buttonAnimation 5s infinite;
+
+	position: absolute;
+	top: 64vw;
+	width: 30vw;
+	height: 10vw;
+	right: 10vw;
+	background-color: #a57bee;
+	color: beige;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 3vw;
+	
+	cursor: pointer;
+	border: none;
+	border-radius: 3vw;
+}
+@keyframes name {
+	0% {
+		color: black;
+	
+		font-size: 12vw;
+	  }
+	  50% {
+		color: purple;
+		font-size: 10vw;
+
+	  }
+	  100% {
+		color: #ac92da;
+
+	  }
+	
+}
+
+@keyframes buttonAnimation {
+	0% {
+	  background-color: #a57bee;
+	}
+	50% {
+	  background-color: #6e4aab;
+	}
+	100% {
+	  background-color: #ac92da;
+	}
+  }
+
+#MyLinkedIn
+{
+	transition: background-color 0.3s ease-in-out;
+	animation: buttonAnimation 5s infinite;
+	position: absolute;
+	top: 40vw;
+	width: 30vw;
+	height: 10vw;
+	right: 10vw;
+	background-color: #a57bee;
+	color: beige;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 3vw;
+	
+	cursor: pointer;
+	border: none;
+	border-radius: 3vw;
+}
+
+.button
+{
+	transition: all 0.5s;
+}
+
+.button:span{	 
+	cursor: pointer;
+	display: inline-block;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -1vw;
+	transition: 0.5s;
+  }
+  
+  .button:hover span {
+	padding-right: 2vw;
+  }
+  
+  .button:hover span:after {
+	opacity: 1;
+	right: 0vw;
+  }
+
+
+
+#Projects
+{
+	animation: buttonAnimation 5s infinite;
+
+	position: absolute;
+	top: 52vw;
+	width: 30vw;
+	height: 10vw;
+	right: 10vw;
+	background-color: #a57bee;
+	color: beige;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 3vw;
+	
+	cursor: pointer;
+	border: none;
+	border-radius: 3vw;
+}
+
