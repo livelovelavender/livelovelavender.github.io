@@ -110,7 +110,7 @@ body{
 
 #AboutMe p
 {
-	font-family: fantasy;
+	font-family: fantasy, 'Times New Roman', Times, serif ;
 	font-size: 3.5vw;
 	padding-left: 5vw;
 	padding-right: 43vw;
