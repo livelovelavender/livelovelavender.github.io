@@ -4,6 +4,7 @@ const button = document.getElementById("MyBlog");
 const targetSection = document.getElementById('myblog');
 const GoodReadsButton = document.getElementById("BF");
 const LinkedInButton = document.getElementById("MyLinkedIn");
+const ProjectsButton = document.getElementById("Projects");
 
 // Add an event listener to the buttons
 button.addEventListener("click", function() {
@@ -15,7 +16,9 @@ GoodReadsButton.addEventListener("click", function(){
 LinkedInButton.addEventListener("click", function(){
 	window.open("https://www.linkedin.com/in/kayla-snyder-b15069292", '_blank');
 })
-
+ProjectsButton.addEventListener("click", function(){
+	window.open("NewPage.html", '_blank');
+})
 
 
 
