@@ -1,0 +1,198 @@
+
+body{
+	background-color: #44624b;
+}
+
+#title
+{
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-top: 25vw;
+}
+@keyframes colorswitcher1
+{
+	0%{
+		color:red;
+		
+	}
+	25%{
+		color: orange;
+	}
+	50%{
+		color:yellow;
+	}
+	75%{
+		color: pink;
+	}
+	100%{
+		color:plum;
+	}
+}
+@keyframes colorswitcher2
+{
+	0%{
+		color:darkcyan;
+	}
+	25%{
+		color: navy;
+	}
+	50%{
+		color:greenyellow;
+	}
+	75%{
+		color: rgb(80, 182, 255);
+	}
+	100%{
+		color:aqua;
+	}
+}
+@keyframes colorswitcher3
+{
+	0%{
+		color:darkmagenta;
+
+	}
+	25%{
+		color: pink;
+	}
+	50%{
+		color:yellow;
+	}
+	75%{
+		color: orangered;
+	}
+	100%{
+		color:deeppink;
+	}
+}
+
+@keyframes colorswitcher4
+{
+	0%{
+		color:navy;
+
+	}
+	25%{
+		color: greenyellow;
+	}
+	50%{
+		color:rgb(229, 183, 246);
+	}
+	75%{
+		color: rgb(0, 127, 141);
+	}
+	100%{
+		color:rgb(78, 81, 255);
+	}
+}
+@keyframes colorswitcher5
+{
+	0%{
+		color:hotpink;
+
+	}
+	25%{
+		color: crimson;
+	}
+	50%{
+		color:blueviolet;
+	}
+	75%{
+		color: yellow;
+	}
+	100%{
+		color:orangered;
+	}
+}
+
+
+  
+
+
+#first
+{
+	animation: colorswitcher1 8s infinite;
+}
+
+#second{
+	animation: colorswitcher2 10s infinite;
+
+}
+
+#third
+{
+	animation: colorswitcher3 6s infinite;
+}
+
+#fourth
+{
+	animation: colorswitcher4 9s infinite;
+}
+
+#fifth
+{
+	animation: colorswitcher5 7s infinite;
+
+}
+
+#giftIMG
+{
+	margin-top: 10vw;
+	height:50vw;
+	animation: rotate 5s infinite;
+}
+
+#line
+{
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-bottom: 10vw;
+
+}
+
+h2{
+	margin-top: 5vw;
+	color:aliceblue;
+	text-align: center;
+	font-size: 3.5vw;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3	
+{
+	color:burlywood;
+	margin-bottom: 2vw;
+}
+
+h4
+{
+	color: burlywood;
+	margin-top: 0vw;
+	margin-bottom: 0vw;
+}
+
+h5
+{
+	margin-top: 3vw;
+	font-size: 5vw;
+	color: burlywood;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(8deg)
+	  }
+	  25% {
+		transform: rotate(-8deg)
+	  }
+	  50%{
+		transform: rotate(8deg)
+	  }
+	  75%{
+		transform: rotate(-8deg)
+	  }
+	  100% {
+		transform: rotate(8deg)
+	  }
+	
+}
